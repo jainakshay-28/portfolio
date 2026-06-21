@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Akshay Jain Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Jain | Oracle Cloud Engineer</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+<div class="bg"></div>
 
 <nav>
-    <h2>Akshay Jain</h2>
+    <div class="logo">Akshay Jain</div>
 
     <ul>
         <li><a href="#about">About</a></li>
@@ -20,89 +28,148 @@
 </nav>
 
 <section class="hero">
-    <img src="profile.jpg">
+
+    <img src="profile.jpg" class="profile">
 
     <h1>Akshay Jain</h1>
 
-    <h3>Oracle Cloud Engineer</h3>
+    <h2 id="typing"></h2>
 
     <p>
         Oracle Consultant Associate at Feather Thread Corporation LLP
     </p>
 
-    <a href="resume.pdf" class="btn">Download Resume</a>
+    <div class="buttons">
+        <a href="resume.pdf" class="btn">Download Resume</a>
 
-    <a href="https://www.linkedin.com/in/akshay-jain-541309305/" class="btn">
-        LinkedIn
-    </a>
+        <a href="https://www.linkedin.com/in/akshay-jain-541309305/" target="_blank" class="btn2">
+            LinkedIn
+        </a>
+    </div>
+
 </section>
 
 <section id="about">
+
     <h2>About Me</h2>
 
-    <p>
+    <div class="card">
         Oracle Cloud Engineer with hands-on experience in Oracle Database,
-        OCI, Linux Administration and cloud technologies.
-        Passionate about database administration, cloud infrastructure,
-        automation and real-world problem solving.
-    </p>
+        OCI, Linux Administration and enterprise infrastructure deployment.
+        Passionate about cloud technologies, database administration and
+        solving real-world problems.
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat">
+        <h1>20+</h1>
+        <p>Cloud Labs</p>
+    </div>
+
+    <div class="stat">
+        <h1>10+</h1>
+        <p>OCI Deployments</p>
+    </div>
+
+    <div class="stat">
+        <h1>5+</h1>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat">
+        <h1>1+</h1>
+        <p>Years Experience</p>
+    </div>
+
 </section>
 
 <section id="skills">
+
     <h2>Skills</h2>
 
-    <div class="card">Oracle Database 19c</div>
-    <div class="card">Oracle 23ai</div>
-    <div class="card">OCI</div>
-    <div class="card">Linux</div>
-    <div class="card">SQL</div>
-    <div class="card">RMAN</div>
-    <div class="card">WebLogic</div>
-    <div class="card">OAM</div>
+    <div class="skill-container">
+
+        <div class="skill">Oracle Database</div>
+        <div class="skill">Oracle 23ai</div>
+        <div class="skill">OCI</div>
+        <div class="skill">Linux</div>
+        <div class="skill">SQL</div>
+        <div class="skill">RMAN</div>
+        <div class="skill">WebLogic</div>
+        <div class="skill">OAM</div>
+
+    </div>
+
 </section>
 
 <section id="experience">
+
     <h2>Experience</h2>
 
-    <div class="box">
-        <h3>Feather Thread Corporation LLP</h3>
-        <p>Oracle Consultant Associate</p>
+    <div class="card">
+        <h3>Oracle Consultant Associate</h3>
+
+        <p>Feather Thread Corporation LLP</p>
+
         <p>January 2025 - Present</p>
     </div>
+
 </section>
 
 <section id="projects">
+
     <h2>Projects</h2>
 
-    <div class="box">
-        Oracle Database 23ai on OCI
+    <div class="project-grid">
+
+        <div class="card">
+            <h3>Oracle 23ai on OCI</h3>
+            <p>Installation and deployment of Oracle Database on OCI.</p>
+        </div>
+
+        <div class="card">
+            <h3>OAM 12c Lab Setup</h3>
+            <p>Enterprise identity and access management deployment.</p>
+        </div>
+
+        <div class="card">
+            <h3>ODI Deployment</h3>
+            <p>Oracle Data Integrator deployment and troubleshooting.</p>
+        </div>
+
+        <div class="card">
+            <h3>OCI Infrastructure</h3>
+            <p>VCN, Compute, IAM and Networking configuration.</p>
+        </div>
+
     </div>
 
-    <div class="box">
-        OAM 12c Lab Setup
-    </div>
-
-    <div class="box">
-        ODI Marketplace Deployment
-    </div>
-
-    <div class="box">
-        OCI Infrastructure Deployment
-    </div>
 </section>
 
 <section id="contact">
+
     <h2>Contact Me</h2>
 
-    <p>Email: jainakshay3597@gmail.com</p>
+    <div class="card">
 
-    <p>Phone: 7453945608</p>
+        <p>Email: jainakshay3597@gmail.com</p>
 
-    <a class="btn"
-    href="mailto:jainakshay3597@gmail.com">
-    Hire Me
-    </a>
+        <p>Phone: +91 7453945608</p>
+
+        <a href="mailto:jainakshay3597@gmail.com" class="btn">
+            Hire Me
+        </a>
+
+    </div>
+
 </section>
+
+<footer>
+    © 2026 Akshay Jain | Oracle Cloud Engineer
+</footer>
 
 <script src="script.js"></script>
 
